@@ -1,0 +1,12 @@
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\bin\Debug\net7.0\Backend.Application.deps.json
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\bin\Debug\net7.0\Backend.Application.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\bin\Debug\net7.0\Backend.Application.pdb
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\Backend.Application.csproj.AssemblyReference.cache
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\Backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\Backend.Application.AssemblyInfoInputs.cache
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\Backend.Application.AssemblyInfo.cs
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\Backend.Application.csproj.CoreCompileInputs.cache
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\Backend.Application.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\refint\Backend.Application.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\Backend.Application.pdb
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Application\obj\Debug\net7.0\ref\Backend.Application.dll
