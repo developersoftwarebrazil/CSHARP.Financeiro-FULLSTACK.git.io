@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend.Financeiro.Domain.Entities.Systems.Transactions
 {
-    public class Transaction
+    public class Transaction : Base
     {
-        public int Years { get; set; }
+        public int Year { get; set; }
         public int Month { get; set; }
 
         public decimal Value { get; set; }
