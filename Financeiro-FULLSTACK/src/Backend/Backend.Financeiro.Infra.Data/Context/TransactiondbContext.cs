@@ -3,7 +3,6 @@ using Backend.Financeiro.Domain.Entities.Identities.Users;
 using Backend.Financeiro.Domain.Entities.Systems;
 using Backend.Financeiro.Domain.Entities.Systems.Transactions;
 using Backend.Financeiro.Domain.Entities.Systems.Users;
-using Backend.Financeiro.Infra.Data.EntityConfig;
 using Backend.Financeiro.Infra.Data.EntityConfig.Categories;
 using Backend.Financeiro.Infra.Data.EntityConfig.Systems;
 using Backend.Financeiro.Infra.Data.EntityConfig.Systems.Transactions;
@@ -11,7 +10,6 @@ using Backend.Financeiro.Infra.Data.EntityConfig.Systems.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Emit;
 
 namespace Backend.Financeiro.Infra.Data.Context
 {

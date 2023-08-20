@@ -4,7 +4,7 @@ using Backend.Financeiro.Domain.Interfaces.Generics;
 
 namespace Backend.Financeiro.Domain.Interfaces.Systems.Transactions
 {
-    public interface ITransaction : IGeneric<Transaction>
+    public interface ITransactionRepository : IRepositoryBase<Transaction>
     {
         Task<IList<Transaction>> ListTransactionUser(string userEmail);
 

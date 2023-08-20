@@ -3,8 +3,9 @@ using Backend.Financeiro.Domain.Interfaces.Generics;
 
 namespace Backend.Financeiro.Domain.Interfaces.Systems
 {
-    public interface IFinanceSystem : IGeneric<FinanceSystem>
+    public interface IFinanceSystemRepository : IRepositoryBase<FinanceSystem>
     {
+
         Task<IList<FinanceSystem>> ListUserSystem(string userEmail);
     }
 }

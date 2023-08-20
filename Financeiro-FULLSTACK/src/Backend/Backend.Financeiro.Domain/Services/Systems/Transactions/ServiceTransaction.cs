@@ -7,8 +7,8 @@ namespace Backend.Financeiro.Domain.Services.Systems.Transactions
 {
     public class ServiceTransaction : IServiceTransaction
     {
-        private readonly ITransaction _transactions;
-        public ServiceTransaction(ITransaction transactions)
+        private readonly ITransactionRepository _transactions;
+        public ServiceTransaction(ITransactionRepository transactions)
         {
             _transactions = transactions;
         }

@@ -3,7 +3,7 @@ using Backend.Financeiro.Domain.Interfaces.Generics;
 
 namespace Backend.Financeiro.Domain.Interfaces.Systems.Users
 {
-    public interface IFinanceSystemUser : IGeneric<FinanceSystemUser>
+    public interface IFinanceSystemUserRepository : IRepositoryBase<FinanceSystemUser>
     {
         Task<IList<FinanceSystemUser>> ListarUsuariosSistema(int systemId);
 

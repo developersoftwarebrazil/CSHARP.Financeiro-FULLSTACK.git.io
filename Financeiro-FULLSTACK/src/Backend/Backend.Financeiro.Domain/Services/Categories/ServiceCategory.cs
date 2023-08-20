@@ -6,8 +6,8 @@ namespace Backend.Financeiro.Domain.Services.Categories
 {
     public class ServiceCategory : IServiceCategory
     {
-        private readonly ICategory _category;
-        public ServiceCategory(ICategory category)
+        private readonly ICategoryRepository _category;
+        public ServiceCategory(ICategoryRepository category)
         {
             _category = category;
         }
