@@ -4,14 +4,14 @@
     "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\Backend.Financeiro.Infra.Data.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\Backend.Financeiro.Infra.Data.csproj": {
+    "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Domain\\Backend.Financeiro.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\Backend.Financeiro.Infra.Data.csproj",
-        "projectName": "Backend.Financeiro.Infra.Data",
-        "projectPath": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\Backend.Financeiro.Infra.Data.csproj",
+        "projectUniqueName": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Domain\\Backend.Financeiro.Domain.csproj",
+        "projectName": "Backend.Financeiro.Domain",
+        "projectPath": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Domain\\Backend.Financeiro.Domain.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\obj\\",
+        "outputPath": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,102 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\Backend.Financeiro.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\Backend.Financeiro.Infra.Data.csproj",
+        "projectName": "Backend.Financeiro.Infra.Data",
+        "projectPath": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\Backend.Financeiro.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Domain\\Backend.Financeiro.Domain.csproj": {
+                "projectPath": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Domain\\Backend.Financeiro.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

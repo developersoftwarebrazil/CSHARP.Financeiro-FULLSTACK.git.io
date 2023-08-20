@@ -1,0 +1,11 @@
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\bin\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.deps.json
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\bin\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\bin\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.pdb
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\obj\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\obj\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.AssemblyInfoInputs.cache
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\obj\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.AssemblyInfo.cs
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\obj\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.csproj.CoreCompileInputs.cache
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\obj\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\obj\Debug\net7.0\refint\Backend.Financeiro.Infra.Crosscutting.Helper.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\obj\Debug\net7.0\Backend.Financeiro.Infra.Crosscutting.Helper.pdb
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Crosscutting.Helper\obj\Debug\net7.0\ref\Backend.Financeiro.Infra.Crosscutting.Helper.dll

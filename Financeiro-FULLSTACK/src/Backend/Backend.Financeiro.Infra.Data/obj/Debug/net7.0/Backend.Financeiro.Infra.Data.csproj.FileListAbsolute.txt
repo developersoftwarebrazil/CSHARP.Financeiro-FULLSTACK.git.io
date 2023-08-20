@@ -10,3 +10,8 @@ D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Data\obj\Debug\net7.0\refint\Backend.Financeiro.Infra.Data.dll
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Data\obj\Debug\net7.0\Backend.Financeiro.Infra.Data.pdb
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Data\obj\Debug\net7.0\ref\Backend.Financeiro.Infra.Data.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Data\bin\Debug\net7.0\Backend.Financeiro.Infra.Data.runtimeconfig.json
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Data\bin\Debug\net7.0\Backend.Financeiro.Domain.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Data\bin\Debug\net7.0\Backend.Financeiro.Domain.pdb
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Data\obj\Debug\net7.0\Backend.Financeiro.Infra.Data.csproj.CopyComplete
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Infra.Data\obj\Debug\net7.0\Backend.Financeiro.Infra.Data.genruntimeconfig.cache

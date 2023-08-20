@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Backend.Financeiro.Infra.Crosscutting.Helper/1.0.0": {
+        "runtime": {
+          "Backend.Financeiro.Infra.Crosscutting.Helper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Backend.Financeiro.Infra.Crosscutting.Helper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

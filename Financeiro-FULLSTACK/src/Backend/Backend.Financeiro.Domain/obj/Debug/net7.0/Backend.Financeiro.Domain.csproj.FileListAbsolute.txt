@@ -1,0 +1,12 @@
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\bin\Debug\net7.0\Backend.Financeiro.Domain.deps.json
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\bin\Debug\net7.0\Backend.Financeiro.Domain.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\bin\Debug\net7.0\Backend.Financeiro.Domain.pdb
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\Backend.Financeiro.Domain.csproj.AssemblyReference.cache
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\Backend.Financeiro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\Backend.Financeiro.Domain.AssemblyInfoInputs.cache
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\Backend.Financeiro.Domain.AssemblyInfo.cs
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\Backend.Financeiro.Domain.csproj.CoreCompileInputs.cache
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\Backend.Financeiro.Domain.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\refint\Backend.Financeiro.Domain.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\Backend.Financeiro.Domain.pdb
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Domain\obj\Debug\net7.0\ref\Backend.Financeiro.Domain.dll
