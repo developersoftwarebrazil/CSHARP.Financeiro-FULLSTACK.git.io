@@ -3,8 +3,15 @@ using Backend.Financeiro.Domain.Entities.Identities.Users;
 using Backend.Financeiro.Domain.Entities.Systems;
 using Backend.Financeiro.Domain.Entities.Systems.Transactions;
 using Backend.Financeiro.Domain.Entities.Systems.Users;
+using Backend.Financeiro.Infra.Data.EntityConfig;
+using Backend.Financeiro.Infra.Data.EntityConfig.Categories;
+using Backend.Financeiro.Infra.Data.EntityConfig.Systems;
+using Backend.Financeiro.Infra.Data.EntityConfig.Systems.Transactions;
+using Backend.Financeiro.Infra.Data.EntityConfig.Systems.Users;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Emit;
 
 namespace Backend.Financeiro.Infra.Data.Context
 {
@@ -26,7 +33,54 @@ namespace Backend.Financeiro.Infra.Data.Context
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<ApplicationUser>().ToTable("AspNetUsers").HasKey(t => t.Id);
+
+            #region EntityCustomize
+
+            builder.Entity<ApplicationUser>(b =>
+            {
+                b.ToTable("Identity_Users").HasKey(b => b.Id);
+            });
+
+            builder.Entity<IdentityUserClaim<string>>(b =>
+            {
+                b.ToTable("Identity_UsuarioDeclaracao");
+            });
+
+            builder.Entity<IdentityUserLogin<string>>(b =>
+            {
+                b.ToTable("Identity_UsuarioLogins");
+            });
+
+            builder.Entity<IdentityUserToken<string>>(b =>
+            {
+                b.ToTable("Identity_UsuarioTokens");
+            });
+
+            builder.Entity<IdentityRole>(b =>
+            {
+                b.ToTable("Identity_Funcao");
+            });
+
+            builder.Entity<IdentityRoleClaim<string>>(b =>
+            {
+                b.ToTable("Identity_FuncaoDeclaracao");
+            });
+
+            builder.Entity<IdentityUserRole<string>>(b =>
+            {
+                b.ToTable("Identity_UsuarioFuncao");
+            });
+            #endregion
+
+            //builder.ApplyConfiguration(new BaseConfiguration());
+            builder.ApplyConfiguration(new FinanceSystemConfiguration());
+            builder.ApplyConfiguration(new FinanceSystemUserConfiguration());
+            builder.ApplyConfiguration(new TransactionConfiguration());
+            builder.ApplyConfiguration(new CategoryConfiguration());
+
             base.OnModelCreating(builder);
+
+
         }
         public string GetConnetioString()
         {

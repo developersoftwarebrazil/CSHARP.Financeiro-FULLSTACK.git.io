@@ -4,6 +4,7 @@ using Backend.Financeiro.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend.Financeiro.Infra.Data.Migrations
 {
     [DbContext(typeof(TransactiondbContext))]
-    partial class TransactiondbContextModelSnapshot : ModelSnapshot
+    [Migration("20230820202404_config-transaction")]
+    partial class configtransaction
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,7 +47,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.HasIndex("FinanceSystemsId");
 
-                    b.ToTable("Categoria", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Backend.Financeiro.Domain.Entities.Identities.Users.ApplicationUser", b =>

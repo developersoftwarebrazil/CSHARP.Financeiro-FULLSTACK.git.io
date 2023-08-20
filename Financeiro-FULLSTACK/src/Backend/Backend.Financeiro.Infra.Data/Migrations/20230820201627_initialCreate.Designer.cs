@@ -4,6 +4,7 @@ using Backend.Financeiro.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend.Financeiro.Infra.Data.Migrations
 {
     [DbContext(typeof(TransactiondbContext))]
-    partial class TransactiondbContextModelSnapshot : ModelSnapshot
+    [Migration("20230820201627_initialCreate")]
+    partial class initialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,7 +47,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.HasIndex("FinanceSystemsId");
 
-                    b.ToTable("Categoria", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Backend.Financeiro.Domain.Entities.Identities.Users.ApplicationUser", b =>
@@ -144,7 +147,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SistemaFinanceiro", (string)null);
+                    b.ToTable("FinanceSystem");
                 });
 
             modelBuilder.Entity("Backend.Financeiro.Domain.Entities.Systems.Transactions.Transaction", b =>
@@ -188,7 +191,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("Value")
-                        .HasColumnType("decimal(18, 2)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Year")
                         .HasColumnType("int");
@@ -197,7 +200,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Transacao", (string)null);
+                    b.ToTable("Transactions");
                 });
 
             modelBuilder.Entity("Backend.Financeiro.Domain.Entities.Systems.Users.FinanceSystemUser", b =>
@@ -220,14 +223,13 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.Property<string>("UserEmail")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("varchar(150)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("SystemId");
 
-                    b.ToTable("UsuarioSistemaFinanceiro", (string)null);
+                    b.ToTable("FinanceSystemUsers");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend.Financeiro.Infra.Data.Migrations
 {
     [DbContext(typeof(TransactiondbContext))]
-    [Migration("20230820144950_Initial")]
-    partial class Initial
+    [Migration("20230820202534_config-category")]
+    partial class configcategory
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -47,7 +47,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.HasIndex("FinanceSystemsId");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categoria", (string)null);
                 });
 
             modelBuilder.Entity("Backend.Financeiro.Domain.Entities.Identities.Users.ApplicationUser", b =>
@@ -147,7 +147,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("FinanceSystem");
+                    b.ToTable("SistemaFinanceiro", (string)null);
                 });
 
             modelBuilder.Entity("Backend.Financeiro.Domain.Entities.Systems.Transactions.Transaction", b =>
@@ -191,7 +191,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("Value")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<int>("Year")
                         .HasColumnType("int");
@@ -200,7 +200,7 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Transactions");
+                    b.ToTable("Transacao", (string)null);
                 });
 
             modelBuilder.Entity("Backend.Financeiro.Domain.Entities.Systems.Users.FinanceSystemUser", b =>
@@ -223,13 +223,14 @@ namespace Backend.Financeiro.Infra.Data.Migrations
 
                     b.Property<string>("UserEmail")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("SystemId");
 
-                    b.ToTable("FinanceSystemUsers");
+                    b.ToTable("UsuarioSistemaFinanceiro", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
