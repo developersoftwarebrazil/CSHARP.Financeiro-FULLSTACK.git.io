@@ -6,8 +6,8 @@ namespace Backend.Financeiro.Domain.Services.Systems.Users
 {
     public class ServiceFinanceSystemUser : IServiceFinanceSystemUser
     {
-        private readonly IFinanceSystemUser _financeSystemUser;
-        public ServiceFinanceSystemUser(IFinanceSystemUser financeSystemUser)
+        private readonly IFinanceSystemUserRepository _financeSystemUser;
+        public ServiceFinanceSystemUser(IFinanceSystemUserRepository financeSystemUser)
         {
             _financeSystemUser = financeSystemUser;
         }

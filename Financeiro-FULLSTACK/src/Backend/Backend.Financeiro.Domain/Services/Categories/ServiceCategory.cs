@@ -4,7 +4,7 @@ using Backend.Financeiro.Domain.Interfaces.IServices.Categories;
 
 namespace Backend.Financeiro.Domain.Services.Categories
 {
-    public class ServiceCategory : IServiceCategory
+    public class ServiceCategory : IServiceCategoryRepository
     {
         private readonly ICategoryRepository _category;
         public ServiceCategory(ICategoryRepository category)

@@ -4,10 +4,10 @@ using Backend.Financeiro.Domain.Interfaces.Systems;
 
 namespace Backend.Financeiro.Domain.Services.Systems
 {
-    public class ServiceFinanceSystem : IServiceFinanceSystem
+    public class ServiceFinanceSystem : IServiceFinanceSystemRepository
     {
-        private readonly IFinanceSystem _financeSystem;
-        public ServiceFinanceSystem(IFinanceSystem financeSystem)
+        private readonly IFinanceSystemRepository _financeSystem;
+        public ServiceFinanceSystem(IFinanceSystemRepository financeSystem)
         {
             _financeSystem = financeSystem;
         }

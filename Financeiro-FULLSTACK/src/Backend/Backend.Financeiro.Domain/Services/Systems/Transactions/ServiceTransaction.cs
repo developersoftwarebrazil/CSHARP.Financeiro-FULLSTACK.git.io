@@ -5,7 +5,7 @@ using Backend.Financeiro.Domain.Interfaces.Systems.Transactions;
 
 namespace Backend.Financeiro.Domain.Services.Systems.Transactions
 {
-    public class ServiceTransaction : IServiceTransaction
+    public class ServiceTransaction : IServiceTransactionRepository
     {
         private readonly ITransactionRepository _transactions;
         public ServiceTransaction(ITransactionRepository transactions)
