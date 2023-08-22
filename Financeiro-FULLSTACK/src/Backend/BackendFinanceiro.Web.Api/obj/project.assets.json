@@ -132,12 +132,12 @@
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Identity.UI.dll": {
-            "related": ".xml"
+            "related": ".dll.terabox.uploading.cfg;.xml;.xml.terabox.uploading.cfg"
           }
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Identity.UI.dll": {
-            "related": ".xml"
+            "related": ".dll.terabox.uploading.cfg;.xml;.xml.terabox.uploading.cfg"
           }
         },
         "frameworkReferences": [
@@ -312,12 +312,12 @@
         },
         "compile": {
           "lib/net6.0/_._": {
-            "related": ".xml"
+            "related": ".dll.terabox.uploading.cfg;.xml;.xml.terabox.uploading.cfg"
           }
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "related": ".xml"
+            "related": ".dll.terabox.uploading.cfg;.xml;.xml.terabox.uploading.cfg"
           }
         },
         "build": {
@@ -349,12 +349,12 @@
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "related": ".xml"
+            "related": ".dll.terabox.uploading.cfg;.xml;.xml.terabox.uploading.cfg"
           }
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "related": ".xml"
+            "related": ".dll.terabox.uploading.cfg;.xml;.xml.terabox.uploading.cfg"
           }
         }
       },
@@ -364,10 +364,14 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.10"
         },
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/net6.0/_._": {
+            "related": "._.terabox.uploading.cfg"
+          }
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/net6.0/_._": {
+            "related": "._.terabox.uploading.cfg"
+          }
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
