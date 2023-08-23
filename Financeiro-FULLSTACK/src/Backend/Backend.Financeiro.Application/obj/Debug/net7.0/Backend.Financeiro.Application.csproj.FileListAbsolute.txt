@@ -9,3 +9,4 @@ D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Application\obj\Debug\net7.0\refint\Backend.Financeiro.Application.dll
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Application\obj\Debug\net7.0\Backend.Financeiro.Application.pdb
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Application\obj\Debug\net7.0\ref\Backend.Financeiro.Application.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\Backend.Financeiro.Application\obj\Debug\net7.0\Backend.Financeiro.Application.csproj.AssemblyReference.cache

@@ -1,4 +1,4 @@
-﻿using Backend.Financeiro.Domain.Interfaces.Generics;
+﻿using Backend.Financeiro.Domain.Interfaces.Repositories.Generics;
 using Backend.Financeiro.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;

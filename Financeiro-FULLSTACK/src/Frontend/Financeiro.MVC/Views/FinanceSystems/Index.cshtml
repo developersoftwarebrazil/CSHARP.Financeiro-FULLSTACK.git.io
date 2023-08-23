@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Financeiro.MVC.ViewModels.FinanceSystemViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearCopy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Month)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MonthCopy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MonthlyClosingDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GenerateTransactionCopy)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YearCopy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Month)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MonthCopy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MonthlyClosingDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GenerateTransactionCopy)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

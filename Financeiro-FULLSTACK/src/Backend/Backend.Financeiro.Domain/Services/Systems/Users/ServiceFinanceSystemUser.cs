@@ -1,6 +1,6 @@
 ﻿using Backend.Financeiro.Domain.Entities.Systems.Users;
-using Backend.Financeiro.Domain.Interfaces.IServices.Systems.Users;
-using Backend.Financeiro.Domain.Interfaces.Systems.Users;
+using Backend.Financeiro.Domain.Interfaces.Repositories.IServices.Systems.Users;
+using Backend.Financeiro.Domain.Interfaces.Repositories.Systems.Users;
 
 namespace Backend.Financeiro.Domain.Services.Systems.Users
 {

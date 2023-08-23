@@ -1,5 +1,5 @@
 ﻿using Backend.Financeiro.Domain.Entities.Systems.Users;
-using Backend.Financeiro.Domain.Interfaces.Systems.Users;
+using Backend.Financeiro.Domain.Interfaces.Repositories.Systems.Users;
 using Backend.Financeiro.Infra.Data.Context;
 using Backend.Financeiro.Infra.Data.Repositories.Generics;
 using Microsoft.EntityFrameworkCore;

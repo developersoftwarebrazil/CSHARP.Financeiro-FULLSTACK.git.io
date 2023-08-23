@@ -88,3 +88,5 @@ D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\BackendFinanceiro.Web.Api\obj\Debug\net7.0\Backend.Financeiro.Web.Api.pdb
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\BackendFinanceiro.Web.Api\obj\Debug\net7.0\Backend.Financeiro.Web.Api.genruntimeconfig.cache
 D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\BackendFinanceiro.Web.Api\obj\Debug\net7.0\ref\Backend.Financeiro.Web.Api.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\BackendFinanceiro.Web.Api\bin\Debug\net7.0\AutoMapper.dll
+D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Backend\BackendFinanceiro.Web.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

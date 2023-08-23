@@ -1,6 +1,6 @@
 ﻿using Backend.Financeiro.Domain.Entities.Categories;
 using Backend.Financeiro.Domain.Entities.Systems.Users;
-using Backend.Financeiro.Domain.Interfaces.Categories;
+using Backend.Financeiro.Domain.Interfaces.Repositories.Categories;
 using Backend.Financeiro.Infra.Data.Context;
 using Backend.Financeiro.Infra.Data.Repositories.Generics;
 using Microsoft.EntityFrameworkCore;

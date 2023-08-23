@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Da7FG0cP1yph31fxAzMaf3z16jZ+PgbFMKZ+/JuKXS/NdlLLyJrk4sUYrMMMzCkS/wn8vkTXDk3+SSTvhBpsOg==",
+  "dgSpecHash": "X7/m5hIYedGFV3VtB0KdiPFQqacEq64NZHSv+/xlTeWhuawLVrw0I0XUhRCn/pKQoGhLXHFIldbAUBsJ8mxVMQ==",
   "success": true,
   "projectFilePath": "D:\\Documents\\Projects\\FULLSTACKS\\Financeiro-FULLSTACK-v001\\Financeiro-FULLSTACK\\src\\Backend\\Backend.Financeiro.Application\\Backend.Financeiro.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
