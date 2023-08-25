@@ -5,7 +5,7 @@ namespace Financeiro.MVC.ViewModels
 {
     public class FinanceSystemViewModel
     {
-        [Required(ErrorMessage ="Este campo precisa ser preenchido")]
+        [Required(ErrorMessage = "Este campo precisa ser preenchido")]
         [DisplayName("Ano")]
         public int Year { get; set; }
 
@@ -17,12 +17,12 @@ namespace Financeiro.MVC.ViewModels
         [DisplayName("Mês")]
         public int Month { get; set; }
 
-        
-        [Required(ErrorMessage ="Este campo precisa ser preenchido")]
+
+        [Required(ErrorMessage = "Este campo precisa ser preenchido")]
         [DisplayName("Mês Cópia")]
         public int MonthCopy { get; set; }
 
-        [Required(ErrorMessage ="Este campo precisa ser preenchido")]
+        [Required(ErrorMessage = "Este campo precisa ser preenchido")]
         [DisplayName("Dia de fechamento")]
         public int MonthlyClosingDay { get; set; }
 

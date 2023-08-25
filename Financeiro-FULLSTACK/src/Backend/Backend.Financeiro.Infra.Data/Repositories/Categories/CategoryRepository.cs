@@ -1,14 +1,8 @@
 ﻿using Backend.Financeiro.Domain.Entities.Categories;
-using Backend.Financeiro.Domain.Entities.Systems.Users;
 using Backend.Financeiro.Domain.Interfaces.Repositories.Categories;
 using Backend.Financeiro.Infra.Data.Context;
 using Backend.Financeiro.Infra.Data.Repositories.Generics;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Backend.Financeiro.Infra.Data.Repositories.Categories
 {
@@ -21,7 +15,7 @@ namespace Backend.Financeiro.Infra.Data.Repositories.Categories
         }
         public async Task<IList<Category>> ListUserCategory(string userEmail)
         {
-           using(var data = new TransactiondbContext(_options))
+            using (var data = new TransactiondbContext(_options))
             {
                 return await
                     (

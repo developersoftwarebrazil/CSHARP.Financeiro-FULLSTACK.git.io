@@ -5,7 +5,7 @@
 namespace Backend.Financeiro.Infra.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class configcategory : Migration
+    public partial class updetetables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

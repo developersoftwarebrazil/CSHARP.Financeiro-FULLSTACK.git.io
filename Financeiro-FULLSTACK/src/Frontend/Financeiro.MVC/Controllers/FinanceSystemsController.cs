@@ -1,5 +1,4 @@
 ﻿using Backend.Financeiro.Infra.Data.Repositories.Systems;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Financeiro.MVC.Controllers
@@ -10,7 +9,7 @@ namespace Financeiro.MVC.Controllers
         // GET: FinanceSystems
         public ActionResult Index()
         {
-            return View(_financeSystemRepository.List());
+            return View(_financeSystemRepository.GetAll());
         }
 
         // GET: FinanceSystems/Details/5

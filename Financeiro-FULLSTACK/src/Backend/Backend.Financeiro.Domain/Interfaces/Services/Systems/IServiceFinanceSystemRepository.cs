@@ -1,6 +1,6 @@
 ﻿using Backend.Financeiro.Domain.Entities.Systems;
 
-namespace Backend.Financeiro.Domain.Interfaces.Repositories.IServices.Systems
+namespace Backend.Financeiro.Domain.Interfaces.Services.Systems
 {
     public interface IServiceFinanceSystemRepository
     {

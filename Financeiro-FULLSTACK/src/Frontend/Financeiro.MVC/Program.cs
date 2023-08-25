@@ -1,8 +1,6 @@
 using Backend.Financeiro.Domain.Entities.Identities.Users;
 using Backend.Financeiro.Infra.Data.Context;
 using Financeiro.MVC.Configurations;
-using Financeiro.MVC.Data;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

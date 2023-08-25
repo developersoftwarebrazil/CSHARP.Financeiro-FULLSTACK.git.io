@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Financeiro.MVC
 build_property.RootNamespace = Financeiro.MVC
 build_property.ProjectDir = D:\Documents\Projects\FULLSTACKS\Financeiro-FULLSTACK-v001\Financeiro-FULLSTACK\src\Frontend\Financeiro.MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -22,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Documents/Projects/FULLSTACKS/Financeiro-FULLSTACK-v001/Financeiro-FULLSTACK/src/Frontend/Financeiro.MVC/Views/FinanceSystems/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVN5c3RlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/Projects/FULLSTACKS/Financeiro-FULLSTACK-v001/Financeiro-FULLSTACK/src/Frontend/Financeiro.MVC/Views/FinanceSystemUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVN5c3RlbVVzZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Documents/Projects/FULLSTACKS/Financeiro-FULLSTACK-v001/Financeiro-FULLSTACK/src/Frontend/Financeiro.MVC/Views/Home/Index.cshtml]

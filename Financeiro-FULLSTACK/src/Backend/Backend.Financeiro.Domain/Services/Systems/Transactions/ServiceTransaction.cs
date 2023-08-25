@@ -1,7 +1,6 @@
 ﻿using Backend.Financeiro.Domain.Entities.Systems.Transactions;
-using Backend.Financeiro.Domain.Interfaces.Repositories.IServices.Systems.Transactions;
 using Backend.Financeiro.Domain.Interfaces.Repositories.Systems.Transactions;
-
+using Backend.Financeiro.Domain.Interfaces.Services.Systems.Transactions;
 
 namespace Backend.Financeiro.Domain.Services.Systems.Transactions
 {

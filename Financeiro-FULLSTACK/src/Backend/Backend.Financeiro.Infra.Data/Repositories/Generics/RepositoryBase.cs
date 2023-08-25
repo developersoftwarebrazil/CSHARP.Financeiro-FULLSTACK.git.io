@@ -1,14 +1,8 @@
 ﻿using Backend.Financeiro.Domain.Interfaces.Repositories.Generics;
 using Backend.Financeiro.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using Microsoft.Win32.SafeHandles;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Backend.Financeiro.Infra.Data.Repositories.Generics
 {
@@ -30,7 +24,7 @@ namespace Backend.Financeiro.Infra.Data.Repositories.Generics
 
         public async Task Update(TEntity Objects)
         {
-            using(var data=new TransactiondbContext(_options))
+            using (var data = new TransactiondbContext(_options))
             {
                 data.Set<TEntity>().Update(Objects);
                 await data.SaveChangesAsync();
@@ -38,7 +32,7 @@ namespace Backend.Financeiro.Infra.Data.Repositories.Generics
         }
         public async Task Delete(TEntity Objects)
         {
-            using(var data = new TransactiondbContext(_options))
+            using (var data = new TransactiondbContext(_options))
             {
                 data.Set<TEntity>().Remove(Objects);
                 await data.SaveChangesAsync();
@@ -46,16 +40,19 @@ namespace Backend.Financeiro.Infra.Data.Repositories.Generics
         }
 
 
-        public IEnumerable<TEntity> GetAll()
+        public async Task<IEnumerable<TEntity>> GetAll()
         {
-            throw new NotImplementedException();
+            using(var data = new TransactiondbContext(_options))
+            {
+                return await data.Set<TEntity>().ToListAsync();
+            }
         }
 
         public async Task<TEntity> GetEntityById(int Id)
         {
-           using(var data = new TransactiondbContext(_options))
+            using (var data = new TransactiondbContext(_options))
             {
-               return await data.Set<TEntity>().FindAsync(Id);
+                return await data.Set<TEntity>().FindAsync(Id);
             }
         }
 

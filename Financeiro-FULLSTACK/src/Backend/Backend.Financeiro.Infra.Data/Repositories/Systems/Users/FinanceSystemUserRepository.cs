@@ -3,11 +3,6 @@ using Backend.Financeiro.Domain.Interfaces.Repositories.Systems.Users;
 using Backend.Financeiro.Infra.Data.Context;
 using Backend.Financeiro.Infra.Data.Repositories.Generics;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Backend.Financeiro.Infra.Data.Repositories.Systems.Users
 {
@@ -20,7 +15,7 @@ namespace Backend.Financeiro.Infra.Data.Repositories.Systems.Users
         }
         public async Task<FinanceSystemUser> GetUserByEmail(string userEmail)
         {
-           using(var data = new TransactiondbContext(_options))
+            using (var data = new TransactiondbContext(_options))
             {
                 return await data.FinanceSystemUsers.AsNoTracking().FirstOrDefaultAsync(f => f.UserEmail.Equals(userEmail));
 
@@ -29,7 +24,7 @@ namespace Backend.Financeiro.Infra.Data.Repositories.Systems.Users
 
         public async Task RemoveUsuarios(List<FinanceSystemUser> users)
         {
-            using(var data = new TransactiondbContext(_options))
+            using (var data = new TransactiondbContext(_options))
             {
                 data.FinanceSystemUsers.RemoveRange();
                 await data.SaveChangesAsync();
@@ -37,9 +32,9 @@ namespace Backend.Financeiro.Infra.Data.Repositories.Systems.Users
         }
         public async Task<IList<FinanceSystemUser>> ListarUsuariosSistema(int systemId)
         {
-            using(var data = new TransactiondbContext(options))
+            using (var data = new TransactiondbContext(options))
             {
-                return await data.FinanceSystemUsers.Where(fsu =>fsu.SystemId == systemId).AsNoTracking().ToListAsync();
+                return await data.FinanceSystemUsers.Where(fsu => fsu.SystemId == systemId).AsNoTracking().ToListAsync();
             }
         }
 

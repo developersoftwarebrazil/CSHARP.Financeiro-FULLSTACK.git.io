@@ -77,8 +77,6 @@ namespace Backend.Financeiro.Infra.Data.Context
             builder.ApplyConfiguration(new CategoryConfiguration());
 
             base.OnModelCreating(builder);
-
-
         }
         public string GetConnetioString()
         {

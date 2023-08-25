@@ -1,6 +1,6 @@
 ﻿using Backend.Financeiro.Domain.Entities.Systems;
-using Backend.Financeiro.Domain.Interfaces.Repositories.IServices.Systems;
 using Backend.Financeiro.Domain.Interfaces.Repositories.Systems;
+using Backend.Financeiro.Domain.Interfaces.Services.Systems;
 
 namespace Backend.Financeiro.Domain.Services.Systems
 {

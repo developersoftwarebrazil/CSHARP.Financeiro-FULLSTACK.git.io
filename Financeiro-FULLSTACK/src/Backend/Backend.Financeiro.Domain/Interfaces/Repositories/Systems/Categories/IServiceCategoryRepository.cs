@@ -1,6 +1,6 @@
 ﻿using Backend.Financeiro.Domain.Entities.Categories;
 
-namespace Backend.Financeiro.Domain.Interfaces.Repositories.IServices.Categories
+namespace Backend.Financeiro.Domain.Interfaces.Repositories.Systems.Categories
 {
     public interface IServiceCategoryRepository
     {

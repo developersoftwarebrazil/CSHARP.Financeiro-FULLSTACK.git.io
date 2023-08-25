@@ -8,7 +8,7 @@
         Task<TEntity> GetEntityById(int Id);
         Task<List<TEntity>> List();
 
-        IEnumerable<TEntity> GetAll();
+        Task<IEnumerable<TEntity>> GetAll();
 
         void Dispose();
 

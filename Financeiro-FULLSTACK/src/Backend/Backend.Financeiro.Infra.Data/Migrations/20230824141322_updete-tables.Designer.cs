@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend.Financeiro.Infra.Data.Migrations
 {
     [DbContext(typeof(TransactiondbContext))]
-    [Migration("20230820202534_config-category")]
-    partial class configcategory
+    [Migration("20230824141322_updete-tables")]
+    partial class updetetables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
